@@ -46,7 +46,7 @@ color: #FAF8F0;
 
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
-.best-sellers-container{padding: 0 30px!important;}
+.best-sellers-container{padding: 0 30px!important;max-height: 750px!important;}
 .best-sellers-wrapper {width:100%;max-height: 700px!important;}
 .best-sellers-item-top {display: table-cell !important;width: 100%;}
 .newmainbloacktopchild5{font-family: 'Poppins';
@@ -749,7 +749,7 @@ block_prod3.insertAdjacentHTML('afterend', block_prod_new3);
 
 
 
-document.querySelectorAll('#section-template--18825292677346__best_sellers_qNrwn8')[0].insertAdjacentHTML('afterend', '<div style="background:#FBEBD6;padding-bottom:75px;width:100%;text-align:center;"><img style="width:350px;margin-top: 20px;display: inline;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20516.png"></div>');
+document.querySelectorAll('#section-template--18825292677346__best_sellers_qNrwn8')[0].insertAdjacentHTML('afterend', '<div style="border-top: 45px solid white;background:#FBEBD6;padding-bottom:75px;width:100%;text-align:center;"><img style="width:350px;margin-top: 20px;display: inline;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20516.png"></div>');
 
 
 
