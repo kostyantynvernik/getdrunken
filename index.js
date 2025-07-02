@@ -46,8 +46,8 @@ color: #FAF8F0;
 
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
-.best-sellers-wrapper {display: table !important}
-.best-sellers-item-top {display: table-caption;width: 100%;}
+.best-sellers-wrapper {width:100%}
+.best-sellers-item-top {display: table-cell !important;width: 100%;}
 .newmainbloacktopchild5{font-family: 'Poppins';
 font-style: normal;
 font-weight: 800;
@@ -137,7 +137,7 @@ gap: 20px;
 .indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
 .indertopmaindc td {padding:0!important;border: none !important;display:inherit;text-align: center;}
 .indertopmaindci{border: none !important;}
-.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;margin: 1px;display: inherit;}
+.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;margin: 1px;display: initial;margin-bottom: 15px;}
 .indertopmaindct{
 font-style: normal;
 font-weight: 800;
@@ -607,6 +607,16 @@ function handleHero() {
 }
 
 function handlePackages() {
+
+
+var link = document.createElement("link");
+link.href = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css";
+link.rel = "stylesheet";
+document.head.appendChild(link);
+
+
+var script1 = document.createElement("script");script1.src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";script1.async = false;document.head.appendChild(script1);
+
 const videoblock = document.getElementById('shopify-section-template--18825292677346__featured_video_3bGR74');
 
 // Insert HTML after the existing element
@@ -648,10 +658,16 @@ document.querySelectorAll('.best-sellers--image')[2].childNodes[1].src='https://
 
 
 
+document.querySelectorAll('.best-sellers-container')[0].classList.add("swiper");
+
+document.querySelectorAll('.swiper')[0].classList.add("mySwiper");
+ 
+document.querySelectorAll('.best-sellers-wrapper')[0].classList.add("swiper-wrapper");
 
 var block_prod01 = document.querySelectorAll('.best-sellers-item')[0];
 var block_prod02 = document.createElement('div'); 
 block_prod02.className = 'best-sellers-item-top';
+block_prod02.classList.add("swiper-slide");
 block_prod02.appendChild(block_prod01.cloneNode(true)); 
 block_prod01.parentNode.replaceChild(block_prod02, block_prod01);
 var block_prod0 = document.querySelectorAll('.best-sellers-item')[0];
@@ -671,6 +687,7 @@ block_prod0.insertAdjacentHTML('afterend', block_prod_new0);
 var block_prod11 = document.querySelectorAll('.best-sellers-item')[1];
 var block_prod12 = document.createElement('div'); 
 block_prod12.className = 'best-sellers-item-top';
+block_prod12.classList.add("swiper-slide");
 block_prod12.appendChild(block_prod11.cloneNode(true)); 
 block_prod11.parentNode.replaceChild(block_prod12, block_prod11);
 var block_prod1 = document.querySelectorAll('.best-sellers-item')[1];
@@ -691,6 +708,7 @@ block_prod1.insertAdjacentHTML('afterend', block_prod_new1);
 var block_prod21 = document.querySelectorAll('.best-sellers-item')[2];
 var block_prod22 = document.createElement('div'); 
 block_prod22.className = 'best-sellers-item-top';
+block_prod22.classList.add("swiper-slide");
 block_prod22.appendChild(block_prod21.cloneNode(true)); 
 block_prod21.parentNode.replaceChild(block_prod22, block_prod21);
 var block_prod2 = document.querySelectorAll('.best-sellers-item')[2];
@@ -710,6 +728,7 @@ block_prod2.insertAdjacentHTML('afterend', block_prod_new2);
 var block_prod31 = document.querySelectorAll('.best-sellers-item')[3];
 var block_prod32 = document.createElement('div'); 
 block_prod32.className = 'best-sellers-item-top';
+block_prod32.classList.add("swiper-slide");
 block_prod32.appendChild(block_prod31.cloneNode(true)); 
 block_prod31.parentNode.replaceChild(block_prod32, block_prod31);
 var block_prod3 = document.querySelectorAll('.best-sellers-item')[3];
@@ -730,6 +749,11 @@ document.querySelectorAll('.cta--custom-wrapper .cta--custom')[0].insertAdjacent
 
 
 
+
+  var swiper = new Swiper('.mySwiper', {
+
+virtual: true 
+    });
 
  pushDataLayer(
         'add_block top',
