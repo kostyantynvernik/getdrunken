@@ -151,7 +151,7 @@ color: #3C3433;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 .indertopmaindcf{display:none!important;}
-#section-template--18825292677346__best_sellers_qNrwn8{background-color: white!important;}
+#section-template--18825292677346__best_sellers_qNrwn8{background-color: white!important;padding-bottom: 10px!important;}
 .best-sellers--image-baner {
 display: flex;
 flex-direction: row;
@@ -453,7 +453,7 @@ align-items: center;
 text-transform: uppercase;
 color: #3C3433;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);}
-#section-template--18825292677346__best_sellers_qNrwn8{background-color: white!important;}
+#section-template--18825292677346__best_sellers_qNrwn8{background-color: white!important;padding-bottom: 10px!important;}
 .best-sellers--image-baner {
 display: flex;
 flex-direction: row;
@@ -749,7 +749,7 @@ block_prod3.insertAdjacentHTML('afterend', block_prod_new3);
 
 
 
-document.querySelectorAll('.cta--custom-wrapper .cta--custom')[0].insertAdjacentHTML('afterend', '<img style="width:350px;margin-top: 20px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20516.png">');
+document.querySelectorAll('#section-template--18825292677346__best_sellers_qNrwn8')[0].insertAdjacentHTML('afterend', '<div style="background:#FBEBD6;padding-bottom:75px;width:100%;text-align:center;"><img style="width:350px;margin-top: 20px;display: inline;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20516.png"></div>');
 
 
 
