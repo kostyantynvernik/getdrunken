@@ -15,13 +15,288 @@ const config = {
 
 // Styles for Experiment
 const styles = /* css */ `
+@media screen and (max-width: 600px){
 #main_content {padding-top: 0!important;}
+  #shopify-section-template--18825292677346__featured_video_3bGR74 {
+   display:none!important;
+   }
+   #newmainbloacktop {background: linear-gradient(#3C3433, #231F20);height: 100%;width: 100%;overflow: hidden;position:relative;}
+   newmainbloacktopchild_m{width: 0;position:inherit!important;}
+   #newmainbloacktop1 {color:#FAF8F0;height: 537px;padding: 300px 0 80px 0;display: table;width: 100%;max-width: 1200px;margin: 0 auto;}
+   .newmainbloacktopchild{display: table-cell;width: 100%;vertical-align: middle;}
+  .starttext{font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+align-items: center;
+color: #FAF8F0;
+} 
+.newmainbloacktopchild1 {text-align: center;}
+.newmainbloacktopchild4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 46px;
+align-items: center;
+letter-spacing: -1px;
+text-transform: uppercase;
+color: #FAF8F0;
+
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+.best-sellers-wrapper {display: table !important}
+.best-sellers-item-top {display: table-caption;width: 100%;}
+.newmainbloacktopchild5{font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #FAF8F0;
+margin-top:10px;
+}
+.newmainbloacktopchild2 {margin-top: 25px;text-align: center;padding-top:25px;}
+.newmainbloacktopchild2sp{
+box-sizing: border-box;
+
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22.5px 36px;
+width: 275px;
+max-width: 800px;
+height: 66px;
+background: #E3AF63;
+border: 4px solid #3C3433;
+box-shadow: 0px 1px 0px #3C3433, 0px 2px 0px #3C3433, 0px 3px 0px #3C3433, 0px 4px 0px #3C3433, 0px 5px 0px #3C3433, 0px 6px 0px #3C3433, 0px 7px 0px #3C3433;
+border-radius: 70px;
+}
+.newmainbloacktopchild2sp1 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #3C3433;
+}
+.imgstarr {height: 20px;width: 20px;vertical-align: sub;display: inline-table;margin-right: 10px;}
+.startext {font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+align-items: center;
+color: #FAF8F0;
+}
+.imgtop1 {display:none;
+}
+.imgtop1 img{display:none;
+}
+.imgtop2 {display:none;
+}
+.imgtop2 img{display:none;
+}
+.imgtop3 {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+transform: rotate(66.64deg);
+}
+.imgtop3 img{
+position: absolute;
+width: 121%;
+height: 71%;
+left: -349px;
+top: -17px;
+transform: rotate(7.64deg);
+}
+#indertopmain {
+text-align: center;
+padding: 25px 5px;
+background: #FBEBD6;
+}
+.indertopmaind {display: inline-block;
+padding: 0px;
+gap: 40px;
+max-width: 1500px;
+}
+.indertopmaindc {display: table-cell;width:33%;
+padding: 0px;
+gap: 20px;
+}
+.indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
+.indertopmaindc td {padding:0!important;border: none !important;display:inherit;text-align: center;}
+.indertopmaindci{border: none !important;}
+.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;margin: 1px;display: inherit;}
+.indertopmaindct{
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #3C3433;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+.indertopmaindcf{display:none!important;}
+#section-template--18825292677346__best_sellers_qNrwn8{background-color: white!important;}
+.best-sellers--image-baner {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+
+position: absolute;
+width: 165.15px;
+max-width: 711.76px;
+height: 41.35px;
+left: 182.85px;
+top: 11.57px;
+
+background: #BA5125;
+border-radius: 62px;
+}
+.best-sellers--image-baner a {
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FAF8F0;
+}
+.best-sellers--title {display:none!important}
+.best-sellers--price {display:none!important}
+.footblockm
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+}
+.footblockm1 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+margin: 0 auto;
+}
+.footblockm2 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+width: 100%;
+margin: 40px 0 20px 0;
+}
+.footblockm3 {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+text-align: left;
+text-transform: uppercase;
+color: #3C3433;
+}
+.footblockm4 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+}
+.footblockm5 {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #3C3433;
+margin-right: 10px;
+}
+.footblockm6 {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #3C3433;
+}
+.footblockm7 {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+height: 120px;
+align-items: center;
+color: #3C3433;
+}
+.footblockm8 {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22.5px 36px;
+margin: 25px auto 0 auto;
+max-width: 800px;
+height: 67px;
+background: #E3AF63;
+border: 4px solid #3C3433;
+box-shadow: 0px 6px 0px 0px #3C3433;
+border-radius: 70px;
+}
+.footblockm8 a {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #3C3433;
+}
+.cta--custom-wrapper .cta--custom{display:none !important;}
+
+#shopify-section-sections--18825288384738__header {position: absolute;
+width: 100%;}
+#shopify-section-template--18825292677346__best_sellers_qNrwn8 {background: linear-gradient(180deg, #3C3433 0%, #231F20 100%);}
+.header--root {background: white !important;}
+}
+
+
+
+
+@media screen and (min-width: 601px){
+//#main_content {padding-top: 0!important;}
   #shopify-section-template--18825292677346__featured_video_3bGR74 {
    display:none!important;
    }
    #newmainbloacktop {background: linear-gradient(#3C3433, #231F20);height: 537px;width: 100%;overflow: hidden;}
    #newmainbloacktop1 {color:#FAF8F0;height: 537px;padding: 80px 0;display: table;width: 100%;max-width: 1200px;margin: 0 auto;}
-   .newmainbloacktopchild{display: table-cell;width: 50%;vertical-align: middle;}
+   .newmainbloacktopchild{display: table-cell;width: 50%;vertical-align: middle;position:relative;}
   .starttext{font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -156,7 +431,7 @@ gap: 20px;
 .indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
 .indertopmaindc td {padding:0!important;border: none !important;}
 .indertopmaindci{border: none !important;}
-.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;}
+.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;margin: 1px;}
 .indertopmaindct{
 font-style: normal;
 font-weight: 800;
@@ -168,7 +443,7 @@ text-transform: uppercase;
 color: #3C3433;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
-.indertopmaindcf{font-style: normal;
+.indertopmaindcf{text-transform: none !important;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
@@ -274,7 +549,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-display: flex;
+height: 120px;
 align-items: center;
 color: #3C3433;
 }
@@ -306,6 +581,7 @@ text-transform: uppercase;
 color: #3C3433;
 }
 .cta--custom-wrapper .cta--custom{display:none !important;}
+}
 `
 
 const stylesEl = document.createElement('style')
@@ -342,7 +618,7 @@ DESEADA DE<br>PUERTO RICO</div>
 <div class="newmainbloacktopchild5">NUESTRAS GALLETAS SON GRANDES, RELLENAS Y HORNEADAS EN SAN JUAN.</div>
 </div>
 <div class="newmainbloacktopchild2"><span class="newmainbloacktopchild2sp"><a class="newmainbloacktopchild2sp1" href="/">¡Compra galletas ahora!</a></span></div>
-</div><div class="newmainbloacktopchild" style="position:relative;">
+</div><div class="newmainbloacktopchild newmainbloacktopchild_m">
 
 <span class="imgtop1"><img src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/1_mainimg.png"></span>
 <span class="imgtop2"><img src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/3_mainimg.png"></span>
@@ -354,7 +630,7 @@ DESEADA DE<br>PUERTO RICO</div>
 <div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 60px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></td><td class="indertopmaindct">Horneado en Puerto Rico</td></tr><tr><td class="indertopmaindcf">Horneadas y enviadas desde San Juan – justo 
 <br>al lado de tu casa, o para regalar.</td></tr></table></div>
 <div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 75px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20543.png"></td><td class="indertopmaindct">Envío a toda la isla</td></tr><tr><td class="indertopmaindcf">Entrega a toda la isla – o recoge desde nuestro local para pedidos grandes.</td></tr></table></div>
-<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 53px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf">Horneadas frescas todos los días, a mano, 
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 50px;padding: 0 5px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf">Horneadas frescas todos los días, a mano, 
 <br>con ingredientes reales.</td></tr></table></div>
 </div>
 </div>`);
