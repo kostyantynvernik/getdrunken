@@ -102,9 +102,9 @@ top: -100px;
 .imgtop1 img{
 position: absolute;
 width: 75%;
-height: 75%;
-left: calc(50% - 467.04px/2 + 0px);
-top: calc(50% - 429.51px/2 + 2.09px);
+height: 70%;
+left: calc(50% - 100%/2 + 0px);
+top: calc(5% - 0%/2 + 1px);
 }
 .imgtop2 {
 position: absolute;
@@ -119,13 +119,13 @@ position: absolute;
 width: 75%;
 height: 120%;
 left: calc(50% - 80%/2 + 3%);
-top: calc(50% - 30%/2 - 40%);
+top: calc(50% - 50%/2 - 40%);
 transform: rotate(93.33deg);
 }
 .imgtop3 {
 position: absolute;
-width: 70%;
-height: 120%;
+width: 80%;
+height: 115%;
 left: calc(50% - 35%/2 + 15%);
 top: -140px;
 transform: rotate(66.64deg);
@@ -133,7 +133,7 @@ transform: rotate(66.64deg);
 .imgtop3 img{
 position: absolute;
 width: 70%;
-height: 70%;
+height: 68%;
 left: calc(50% - 45%/2 - 26%);
 top: calc(50% - 65%/2 - 20%);
 transform: rotate(66.64deg);
