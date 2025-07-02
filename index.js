@@ -360,7 +360,7 @@ DESEADA DE<br>PUERTO RICO</div>
 </div>`);
 
 
-$('h2.stacked-text--title').innerHTML=$('h2.stacked-text--title').innerHTML.replaceAll("Nuestros Más Vendidos","RECIÉN HORNEADAS");
+document.querySelector('h2.stacked-text--title').innerHTML=document.querySelector('h2.stacked-text--title').innerHTML.replaceAll("Nuestros Más Vendidos","RECIÉN HORNEADAS");
 
 document.querySelectorAll('.best-sellers--image')[0].style.position='relative';
 var divimageban= document.createElement('span');
