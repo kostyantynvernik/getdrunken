@@ -46,6 +46,7 @@ color: #FAF8F0;
 
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
+.best-sellers-container{padding: 0 30px!important;}
 .best-sellers-wrapper {width:100%;max-height: 700px!important;}
 .best-sellers-item-top {display: table-cell !important;width: 100%;}
 .newmainbloacktopchild5{font-family: 'Poppins';
