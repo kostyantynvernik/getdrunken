@@ -1,0 +1,699 @@
+console.log('*** Experiment started ***')
+
+// Config for Experiment
+const config = {
+  // dir: 'http://127.0.0.1:5500/natpat/trailpatch',
+  dir: 'https://flopsi69.github.io/crs/natpat/trailpatch',
+  clarity: ['set', 'trial_exp', 'variant_1'],
+  debug: false // Set to true for debug mode
+}
+
+// const orig = console.log
+// console.log = function (...args) {
+//   orig.apply(console, ['Debug:', ...args])
+// }
+
+// Styles for Experiment
+const styles = /* css */ `
+#main_content {padding-top: 0!important;}
+  #shopify-section-template--18825292677346__featured_video_3bGR74 {
+   display:none!important;
+   }
+   #newmainbloacktop {background: linear-gradient(#3C3433, #231F20);height: 537px;width: 100%;overflow: hidden;}
+   #newmainbloacktop1 {color:#FAF8F0;height: 537px;padding: 80px 0;display: table;width: 100%;max-width: 1200px;margin: 0 auto;}
+   .newmainbloacktopchild{display: table-cell;width: 50%;vertical-align: middle;}
+  .starttext{font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+align-items: center;
+color: #FAF8F0;
+} 
+.newmainbloacktopchild4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+align-items: center;
+letter-spacing: -1px;
+text-transform: uppercase;
+color: #FAF8F0;
+display: flex;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+.newmainbloacktopchild5{font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #FAF8F0;
+margin-top:10px;
+}
+.newmainbloacktopchild2 {margin-top: 25px;}
+.newmainbloacktopchild2sp{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22.5px 36px;
+width: 275px;
+max-width: 800px;
+height: 66px;
+background: #E3AF63;
+border: 4px solid #3C3433;
+box-shadow: 0px 1px 0px #3C3433, 0px 2px 0px #3C3433, 0px 3px 0px #3C3433, 0px 4px 0px #3C3433, 0px 5px 0px #3C3433, 0px 6px 0px #3C3433, 0px 7px 0px #3C3433;
+border-radius: 70px;
+}
+.newmainbloacktopchild2sp1 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #3C3433;
+}
+.imgstarr {height: 20px;width: 116px;vertical-align: sub;display: inline-table;margin-right: 10px;}
+.startext {font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+align-items: center;
+color: #FAF8F0;
+}
+.imgtop1 {position: absolute;
+width: 70%;
+height: 120%;
+left: 64px;
+top: -100px;
+}
+.imgtop1 img{
+position: absolute;
+width: 75%;
+height: 75%;
+left: calc(50% - 467.04px/2 + 0px);
+top: calc(50% - 429.51px/2 + 2.09px);
+}
+.imgtop2 {
+position: absolute;
+width: 75%;
+height: 75%;
+left: 35%;
+top: 240px;
+transform: rotate(93.33deg);
+}
+.imgtop2 img{
+position: absolute;
+width: 75%;
+height: 120%;
+left: calc(50% - 80%/2 + 3%);
+top: calc(50% - 30%/2 - 40%);
+transform: rotate(93.33deg);
+}
+.imgtop3 {
+position: absolute;
+width: 70%;
+height: 120%;
+left: calc(50% - 35%/2 + 15%);
+top: -140px;
+transform: rotate(66.64deg);
+}
+.imgtop3 img{
+position: absolute;
+width: 70%;
+height: 70%;
+left: calc(50% - 45%/2 - 26%);
+top: calc(50% - 65%/2 - 20%);
+transform: rotate(66.64deg);
+}
+#indertopmain {
+text-align: center;
+padding: 40px 168px;
+gap: 40px;
+background: #FBEBD6;
+}
+.indertopmaind {display: inline-block;
+padding: 0px;
+gap: 40px;
+max-width: 1500px;
+}
+.indertopmaindc {display: table-cell;width:33%;
+padding: 0px;
+gap: 20px;
+}
+.indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
+.indertopmaindc td {padding:0!important;border: none !important;}
+.indertopmaindci{border: none !important;}
+.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;}
+.indertopmaindct{
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #3C3433;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+.indertopmaindcf{font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #3C3433;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);}
+#section-template--18825292677346__best_sellers_qNrwn8{background-color: white!important;}
+.best-sellers--image-baner {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+
+position: absolute;
+width: 165.15px;
+max-width: 711.76px;
+height: 41.35px;
+left: 182.85px;
+top: 11.57px;
+
+background: #BA5125;
+border-radius: 62px;
+}
+.best-sellers--image-baner a {
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FAF8F0;
+}
+.best-sellers--title {display:none!important}
+.best-sellers--price {display:none!important}
+.footblockm
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+}
+.footblockm1 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+margin: 0 auto;
+}
+.footblockm2 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+width: 100%;
+margin: 40px 0 20px 0;
+}
+.footblockm3 {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+text-align: left;
+text-transform: uppercase;
+color: #3C3433;
+}
+.footblockm4 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+}
+.footblockm5 {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #3C3433;
+margin-right: 10px;
+}
+.footblockm6 {
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #3C3433;
+}
+.footblockm7 {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #3C3433;
+}
+.footblockm8 {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22.5px 36px;
+margin: 25px auto 0 auto;
+max-width: 800px;
+height: 67px;
+background: #E3AF63;
+border: 4px solid #3C3433;
+box-shadow: 0px 6px 0px 0px #3C3433;
+border-radius: 70px;
+}
+.footblockm8 a {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #3C3433;
+}
+.cta--custom-wrapper .cta--custom{display:none !important;}
+`
+
+const stylesEl = document.createElement('style')
+stylesEl.classList.add('exp-styles')
+stylesEl.innerHTML = styles
+
+// *** Logic *** //
+initExp()
+
+async function initExp() {
+  await waitFor(() => document.head && document.body, false, { ms: 20 })
+
+  document.head.appendChild(stylesEl)
+
+  console.log('** InitExp **')
+
+ // handleHero()
+  handlePackages()
+}
+
+function handleHero() {
+
+}
+
+function handlePackages() {
+const videoblock = document.getElementById('shopify-section-template--18825292677346__featured_video_3bGR74');
+
+// Insert HTML after the existing element
+videoblock.insertAdjacentHTML('afterend', `<div id="newmainbloacktop"><div id="newmainbloacktop1"><div class="newmainbloacktopchild">
+<div class="newmainbloacktopchild1">
+<div class="newmainbloacktopchild3"><span><img class="imgstarr" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/505a5b3fcf08df7363afbf9d958d7ed1df017a5a/Frame%204.svg"></span><span class="startext">4,9 estrellas de más de 6000 amantes de las galletas</span></div>
+<div class="newmainbloacktopchild4">LA GALLETA MÁS<br>
+DESEADA DE<br>PUERTO RICO</div>
+<div class="newmainbloacktopchild5">NUESTRAS GALLETAS SON GRANDES, RELLENAS Y HORNEADAS EN SAN JUAN.</div>
+</div>
+<div class="newmainbloacktopchild2"><span class="newmainbloacktopchild2sp"><a class="newmainbloacktopchild2sp1" href="/">¡Compra galletas ahora!</a></span></div>
+</div><div class="newmainbloacktopchild" style="position:relative;">
+
+<span class="imgtop1"><img src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/1_mainimg.png"></span>
+<span class="imgtop2"><img src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/3_mainimg.png"></span>
+<span class="imgtop3"><img src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/2_mainimg.png"></span>
+
+</div></div></div>
+<div id="indertopmain">
+<div class="indertopmaind">
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 60px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></td><td class="indertopmaindct">Horneado en Puerto Rico</td></tr><tr><td class="indertopmaindcf">Horneadas y enviadas desde San Juan – justo 
+<br>al lado de tu casa, o para regalar.</td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 75px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20543.png"></td><td class="indertopmaindct">Envío a toda la isla</td></tr><tr><td class="indertopmaindcf">Entrega a toda la isla – o recoge desde nuestro local para pedidos grandes.</td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 53px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf">Horneadas frescas todos los días, a mano, 
+<br>con ingredientes reales.</td></tr></table></div>
+</div>
+</div>`);
+
+
+$('h2.stacked-text--title').innerHTML=$('h2.stacked-text--title').innerHTML.replaceAll("Nuestros Más Vendidos","RECIÉN HORNEADAS");
+
+document.querySelectorAll('.best-sellers--image')[0].style.position='relative';
+var divimageban= document.createElement('span');
+divimageban.className = 'best-sellers--image-baner';
+divimageban.innerHTML = '<a href="/">Más Vendido</a>';
+document.querySelectorAll('.best-sellers--image')[0].appendChild(divimageban);
+
+document.querySelectorAll('.best-sellers--image')[2].childNodes[1].src='https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/img_three_second.png';
+
+
+
+
+var block_prod01 = document.querySelectorAll('.best-sellers-item')[0];
+var block_prod02 = document.createElement('div'); 
+block_prod02.className = 'best-sellers-item-top';
+block_prod02.appendChild(block_prod01.cloneNode(true)); 
+block_prod01.parentNode.replaceChild(block_prod02, block_prod01);
+var block_prod0 = document.querySelectorAll('.best-sellers-item')[0];
+var block_prod_new0 = `<div class="footblockm">
+<div class="footblockm1">
+<div class="footblockm2">
+<div class="footblockm3" style="margin: 16px 0;">ARMA TU CAJA<br></div><div class="footblockm4"><span class="footblockm5">Desde</span><span class="footblockm6">$36</span></div>
+</div>
+<div class="footblockm7">¡Personaliza tu caja perfecta con 6 o 12 galletas! Elige entre nuestros sabores clásicos y semanales para mezclar y combinar tus favoritos.</div>
+</div>
+<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+</div>`;
+block_prod0.insertAdjacentHTML('afterend', block_prod_new0);
+
+
+
+var block_prod11 = document.querySelectorAll('.best-sellers-item')[1];
+var block_prod12 = document.createElement('div'); 
+block_prod12.className = 'best-sellers-item-top';
+block_prod12.appendChild(block_prod11.cloneNode(true)); 
+block_prod11.parentNode.replaceChild(block_prod12, block_prod11);
+var block_prod1 = document.querySelectorAll('.best-sellers-item')[1];
+var block_prod_new1 = `<div class="footblockm">
+<div class="footblockm1">
+<div class="footblockm2">
+<div class="footblockm3">Chocolate Chip<br>Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+</div>
+<div class="footblockm7">Nuestras famosas galletas con chispas de chocolate se han transformado en vasitos para shots y se han cubierto con una capa de chocolate para evitar derrames.</div>
+</div>
+<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+</div>`;
+block_prod1.insertAdjacentHTML('afterend', block_prod_new1);
+
+
+
+
+var block_prod21 = document.querySelectorAll('.best-sellers-item')[2];
+var block_prod22 = document.createElement('div'); 
+block_prod22.className = 'best-sellers-item-top';
+block_prod22.appendChild(block_prod21.cloneNode(true)); 
+block_prod21.parentNode.replaceChild(block_prod22, block_prod21);
+var block_prod2 = document.querySelectorAll('.best-sellers-item')[2];
+var block_prod_new2 = `<div class="footblockm">
+<div class="footblockm1">
+<div class="footblockm2">
+<div class="footblockm3">CAJAS VARIADAS<br>DE GALLETAS</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+</div>
+<div class="footblockm7">Una selección de 6 o 12 de nuestros productos más vendidos actualmente. Nuestro menú cambia cada semana, por lo que los pedidos pueden variar según la semana.</div>
+</div>
+<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+</div>`;
+block_prod2.insertAdjacentHTML('afterend', block_prod_new2);
+
+
+
+var block_prod31 = document.querySelectorAll('.best-sellers-item')[3];
+var block_prod32 = document.createElement('div'); 
+block_prod32.className = 'best-sellers-item-top';
+block_prod32.appendChild(block_prod31.cloneNode(true)); 
+block_prod31.parentNode.replaceChild(block_prod32, block_prod31);
+var block_prod3 = document.querySelectorAll('.best-sellers-item')[3];
+var block_prod_new3 = `<div class="footblockm">
+<div class="footblockm1">
+<div class="footblockm2">
+<div class="footblockm3">Cookies & Cream<br>Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+</div>
+<div class="footblockm7">Nuestros exclusivos vasos de chupito con forma de galleta están esmaltados con un delicioso interior de chocolate para que nunca tengas que preocuparte por las fugas.</div>
+</div>
+<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+</div>`;
+block_prod3.insertAdjacentHTML('afterend', block_prod_new3);
+
+
+
+document.querySelectorAll('.cta--custom-wrapper .cta--custom')[0].insertAdjacentHTML('afterend', '<img style="width:350px;margin-top: 20px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20516.png">');
+
+
+
+
+ pushDataLayer(
+        'add_block top',
+        'Block',
+        'Videos',
+        'Top'
+      );
+	  
+	  
+	  
+
+}
+
+
+// *** HELPERS *** //
+
+// Waiting for loading by condition
+async function waitFor(condition, cb = false, customConfig = {}) {
+  const config = {
+    ms: 500, // repeat each 0.5 second if condition is false
+    limit: 10, // limit in second seconds
+
+    ...customConfig
+  }
+
+  if (typeof condition === 'function') {
+    if (condition()) {
+      if (typeof cb === 'function') cb()
+      return
+    }
+
+    return new Promise((resolve) => {
+      let limit = config.limit * 1000
+      const interval = setInterval(function () {
+        if (condition() || limit <= 0) {
+          clearInterval(interval)
+          if (limit > 0 && typeof cb === 'function') cb()
+          resolve()
+        }
+        limit -= config.ms
+      }, config.ms)
+    })
+  }
+
+  if (condition.startsWith('.') || condition.startsWith('#')) {
+    if (_$(condition)) {
+      if (typeof cb === 'function') cb(_$(condition))
+      return
+    }
+
+    return new Promise((resolve) => {
+      const observer = new MutationObserver((mutations, observer) => {
+        if (_$(condition)) {
+          if (typeof cb === 'function') cb(_$(condition))
+          observer.disconnect()
+          resolve()
+        }
+      })
+
+      observer.observe(document, { childList: true, subtree: true })
+    })
+  }
+}
+
+// Mutation Observer
+function initMutation(observeEl = document.body, cbAdded, cbRemoved) {
+  const el = typeof observeEl === 'string' ? _$(observeEl) : observeEl
+
+  if (!el) return
+
+  let observer = new MutationObserver((mutations, observer) => {
+    for (let mutation of mutations) {
+      if (typeof cbAdded === 'function') {
+        for (let node of mutation.addedNodes) {
+          if (!(node instanceof HTMLElement)) continue
+          cbAdded(node, observer)
+        }
+      }
+
+      if (typeof cbRemoved === 'function') {
+        for (let node of mutation.removedNodes) {
+          if (!(node instanceof HTMLElement)) continue
+          cbRemoved(node, observer)
+        }
+      }
+    }
+  })
+
+  observer.observe(el, { childList: true, subtree: true })
+
+  return observer
+}
+
+// Intersection Observer
+function initIntersection(observeEl, cb, customConfig) {
+  const el = typeof observeEl === 'string' ? _$(observeEl) : observeEl
+
+  if (!el || typeof cb !== 'function') return
+
+  const config = {
+    root: null,
+    threshold: 0.3, // 0 - 1 | A threshold of 1.0 means that when 100% of the target is visible within the element specified by the root option, the callback is invoked.
+    ...customConfig
+  }
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      cb(entry, observer)
+    })
+  }, config)
+
+  observer.observe(el)
+
+  return observer
+}
+
+function focusTimeEvent(el, cb, viewElementProcent = 0.1) {
+  let entryTime = 0
+  initIntersection(
+    el,
+    ({ isIntersecting, time }) => {
+      if (isIntersecting) {
+        entryTime = time
+      } else if (entryTime) {
+        const diffTime = +((time - entryTime) / 1000).toFixed(1)
+        cb(diffTime + 's')
+        entryTime = 0
+      }
+    },
+    { threshold: viewElementProcent }
+  )
+}
+
+function visibilityEvent(el, cb, customConfig = {}) {
+  const config = {
+    threshold: 0.3,
+    ...customConfig,
+    timer: null
+  }
+  initIntersection(
+    el,
+    ({ isIntersecting, target }, observer) => {
+      // console.log(target, isIntersecting);
+      if (isIntersecting) {
+        config.timer = setTimeout(() => {
+          if (isElementInViewport(target)) {
+            cb()
+            observer.disconnect()
+          }
+        }, 3000)
+      } else {
+        clearTimeout(config.timer)
+      }
+    },
+    config
+  )
+}
+
+// Artificial delay
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+// Check if element in viewport
+function isElementInViewport(selector) {
+  const el = typeof selector === 'string' ? _$(selector) : selector
+
+  if (!el) return false
+
+  const rect = el.getBoundingClientRect()
+  const windowHeight =
+    window.innerHeight || document.documentElement.clientHeight
+
+  return (
+    rect.top + rect.height * 0.3 < windowHeight &&
+    rect.bottom > rect.height * 0.3
+  )
+  // return (
+  //   rect.top >= 0 &&
+  //   rect.left >= 0 &&
+  //   rect.bottom <=
+  //     (window.innerHeight || document.documentElement.clientHeight) &&
+  //   rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  // );
+}
+
+// Shordcode for selectors
+function _$(selector, context = document) {
+  return context.querySelector(selector)
+}
+function _$$(selector, context = document, toSimpleArray = false) {
+  const arr = context.querySelectorAll(selector)
+
+  return toSimpleArray ? Array.from(arr) : arr
+}
+
+// GA 4 events
+function pushDataLayer(name = '', desc = '', type = '', loc = '') {
+  window.dataLayer = window.dataLayer || []
+
+  try {
+    const event = {
+      event: 'event-to-ga4',
+      event_name: name,
+      event_desc: desc,
+      event_type: type,
+      event_loc: loc
+    }
+
+    console.log('** GA4 Event **', event)
+
+    if (!config.debug) {
+      dataLayer.push(event)
+    }
+  } catch (e) {
+    console.log('** GA4 Error **', e)
+  }
+}
+
+
+
+// *** Exp BG process *** //
+
+//Clarity
+if (
+  !config.debug &&
+  Array.isArray(config.clarity) &&
+  config.clarity.length === 3
+) {
+  waitFor(
+    () => typeof clarity == 'function',
+    () => {
+      clarity(...config.clarity)
+    }
+  )
+}
+
+// Svg objects
+function getSvg(name) {
+  const svgObj = {}
+
+  return svgObj[name]
+}
