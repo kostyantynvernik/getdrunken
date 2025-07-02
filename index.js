@@ -630,7 +630,7 @@ videoblock.insertAdjacentHTML('afterend', `<div id="newmainbloacktop"><div id="n
 DESEADA DE<br>PUERTO RICO</div>
 <div class="newmainbloacktopchild5">NUESTRAS GALLETAS SON GRANDES, RELLENAS Y HORNEADAS EN SAN JUAN.</div>
 </div>
-<div class="newmainbloacktopchild2"><span class="newmainbloacktopchild2sp"><a class="newmainbloacktopchild2sp1" href="/">¡Compra galletas ahora!</a></span></div>
+<div class="newmainbloacktopchild2"><span class="newmainbloacktopchild2sp"><a class="newmainbloacktopchild2sp1" href="https://getdrunken.com/es/pages/builder">¡Compra galletas ahora!</a></span></div>
 </div><div class="newmainbloacktopchild newmainbloacktopchild_m">
 
 <span class="imgtop1"><img src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/1_mainimg.png"></span>
@@ -654,7 +654,7 @@ document.querySelector('h2.stacked-text--title').innerHTML=document.querySelecto
 document.querySelectorAll('.best-sellers--image')[0].style.position='relative';
 var divimageban= document.createElement('span');
 divimageban.className = 'best-sellers--image-baner';
-divimageban.innerHTML = '<a href="/">Más Vendido</a>';
+divimageban.innerHTML = '<a href="https://getdrunken.com/es/pages/builder">Más Vendido</a>';
 document.querySelectorAll('.best-sellers--image')[0].appendChild(divimageban);
 
 document.querySelectorAll('.best-sellers--image')[2].childNodes[1].src='https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/img_three_second.png';
@@ -681,7 +681,7 @@ var block_prod_new0 = `<div class="footblockm">
 </div>
 <div class="footblockm7">¡Personaliza tu caja perfecta con 6 o 12 galletas! Elige entre nuestros sabores clásicos y semanales para mezclar y combinar tus favoritos.</div>
 </div>
-<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+<div class="footblockm8"><a href="https://getdrunken.com/es/pages/builder">¡Compra galletas ahora!</a></div>
 </div>`;
 block_prod0.insertAdjacentHTML('afterend', block_prod_new0);
 
@@ -701,7 +701,7 @@ var block_prod_new1 = `<div class="footblockm">
 </div>
 <div class="footblockm7">Nuestras famosas galletas con chispas de chocolate se han transformado en vasitos para shots y se han cubierto con una capa de chocolate para evitar derrames.</div>
 </div>
-<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+<div class="footblockm8"><a href="https://getdrunken.com/es/products/6-pack-chocolate-chip-cookie-shots">¡Compra galletas ahora!</a></div>
 </div>`;
 block_prod1.insertAdjacentHTML('afterend', block_prod_new1);
 
@@ -722,7 +722,7 @@ var block_prod_new2 = `<div class="footblockm">
 </div>
 <div class="footblockm7">Una selección de 6 o 12 de nuestros productos más vendidos actualmente. Nuestro menú cambia cada semana, por lo que los pedidos pueden variar según la semana.</div>
 </div>
-<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+<div class="footblockm8"><a href="https://getdrunken.com/es/products/6-pack-cookie-favorites">¡Compra galletas ahora!</a></div>
 </div>`;
 block_prod2.insertAdjacentHTML('afterend', block_prod_new2);
 
@@ -742,7 +742,7 @@ var block_prod_new3 = `<div class="footblockm">
 </div>
 <div class="footblockm7">Nuestros exclusivos vasos de chupito con forma de galleta están esmaltados con un delicioso interior de chocolate para que nunca tengas que preocuparte por las fugas.</div>
 </div>
-<div class="footblockm8"><a href="/">¡Compra galletas ahora!</a></div>
+<div class="footblockm8"><a href="https://getdrunken.com/es/products/6-pack-cookies-cream-cookie-shots">¡Compra galletas ahora!</a></div>
 </div>`;
 block_prod3.insertAdjacentHTML('afterend', block_prod_new3);
 
