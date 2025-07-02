@@ -608,7 +608,9 @@ function handleHero() {
 
 function handlePackages() {
 
+var outerWidth=window.outerWidth;
 
+if (outerWidth<601){
 var link = document.createElement("link");
 link.href = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css";
 link.rel = "stylesheet";
@@ -616,6 +618,7 @@ document.head.appendChild(link);
 
 
 var script1 = document.createElement("script");script1.src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";script1.async = false;document.head.appendChild(script1);
+}
 
 const videoblock = document.getElementById('shopify-section-template--18825292677346__featured_video_3bGR74');
 
@@ -749,11 +752,12 @@ document.querySelectorAll('.cta--custom-wrapper .cta--custom')[0].insertAdjacent
 
 
 
-
+if (outerWidth<601){
   var swiper = new Swiper('.mySwiper', {
       slidesPerView: 1,
 virtual: true 
     });
+}
 
  pushDataLayer(
         'add_block top',
