@@ -751,7 +751,7 @@ document.querySelectorAll('.cta--custom-wrapper .cta--custom')[0].insertAdjacent
 
 
   var swiper = new Swiper('.mySwiper', {
-
+      slidesPerView: 1,
 virtual: true 
     });
 
