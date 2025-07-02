@@ -2,9 +2,9 @@ console.log('*** Experiment started ***')
 
 // Config for Experiment
 const config = {
-  // dir: 'http://127.0.0.1:5500/natpat/trailpatch',
-  dir: 'https://flopsi69.github.io/crs/natpat/trailpatch',
-  clarity: ['set', 'trial_exp', 'variant_1'],
+  // dir: 'https://kostyantynvernik.github.io/getdrunken',
+  dir: 'https://kostyantynvernik.github.io/getdrunken',
+ // clarity: ['set', 'trial_exp', 'variant_1'],
   debug: false // Set to true for debug mode
 }
 
