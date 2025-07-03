@@ -512,6 +512,7 @@ align-items: center;
 padding: 0px;
 width: 100%;
 margin: 40px 0 20px 0;
+min-height: 85px;
 }
 .footblockm3 {
 font-style: normal;
@@ -653,11 +654,9 @@ DESEADA DE<br>PUERTO RICO</div>
 </div></div></div>
 <div id="indertopmain">
 <div class="indertopmaind">
-<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 60px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></td><td class="indertopmaindct">Horneado en Puerto Rico</td></tr><tr><td class="indertopmaindcf">Horneadas y enviadas desde San Juan – justo 
-<br>al lado de tu casa, o para regalar.</td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 60px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></td><td class="indertopmaindct">Horneado en Puerto Rico</td></tr><tr><td class="indertopmaindcf">Horneadas y enviadas desde San Juan – justo al lado de tu casa, o para regalar.</td></tr></table></div>
 <div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 75px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20543.png"></td><td class="indertopmaindct">Envío a toda la isla</td></tr><tr><td class="indertopmaindcf">Entrega a toda la isla – o recoge desde nuestro local para pedidos grandes.</td></tr></table></div>
-<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 50px;padding: 0 5px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf">Horneadas frescas todos los días, a mano, 
-<br>con ingredientes reales.</td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 50px;padding: 0 5px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf">Horneadas frescas todos los días, a mano, con ingredientes reales.</td></tr></table></div>
 </div>
 </div>`);
 
@@ -690,7 +689,7 @@ var block_prod0 = document.querySelectorAll('.best-sellers-item')[0];
 var block_prod_new0 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3" style="margin: 16px 0;">ARMA TU CAJA<br></div><div class="footblockm4"><span class="footblockm5">Desde</span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">ARMA TU CAJA</div><div class="footblockm4"><span class="footblockm5">Desde</span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">¡Personaliza tu caja perfecta con 6 o 12 galletas! Elige entre nuestros sabores clásicos y semanales para mezclar y combinar tus favoritos.</div>
 </div>
@@ -710,7 +709,7 @@ var block_prod1 = document.querySelectorAll('.best-sellers-item')[1];
 var block_prod_new1 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3">Chocolate Chip<br>Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">Chocolate Chip Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">Nuestras famosas galletas con chispas de chocolate se han transformado en vasitos para shots y se han cubierto con una capa de chocolate para evitar derrames.</div>
 </div>
@@ -731,7 +730,7 @@ var block_prod2 = document.querySelectorAll('.best-sellers-item')[2];
 var block_prod_new2 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3">CAJAS VARIADAS<br>DE GALLETAS</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">CAJAS VARIADAS DE GALLETAS</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">Una selección de 6 o 12 de nuestros productos más vendidos actualmente. Nuestro menú cambia cada semana, por lo que los pedidos pueden variar según la semana.</div>
 </div>
@@ -751,7 +750,7 @@ var block_prod3 = document.querySelectorAll('.best-sellers-item')[3];
 var block_prod_new3 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3">Cookies & Cream<br>Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">Cookies & Cream Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">Nuestros exclusivos vasos de chupito con forma de galleta están esmaltados con un delicioso interior de chocolate para que nunca tengas que preocuparte por las fugas.</div>
 </div>
