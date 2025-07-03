@@ -168,7 +168,7 @@ position: absolute;
 width: 165.15px;
 max-width: 711.76px;
 height: 41.35px;
-left: 182.85px;
+right:10px;
 top: 11.57px;
 
 background: #BA5125;
@@ -471,7 +471,7 @@ position: absolute;
 width: 165.15px;
 max-width: 711.76px;
 height: 41.35px;
-left: 182.85px;
+right:10px;
 top: 11.57px;
 
 background: #BA5125;
