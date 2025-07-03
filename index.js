@@ -18,7 +18,6 @@ const styles = /* css */ `
 @media screen and (max-width: 600px){
 
 .cg1 {border-top: 45px solid #FAF8F0;background:#FAF8F0;padding-bottom:75px;width:100%;text-align:center;}
-.cg1 img (display:none;)
 #main_content {padding-top: 0!important;}
   #shopify-section-template--18825292677346__featured_video_3bGR74 {
    display:none!important;
@@ -595,7 +594,7 @@ color: #3C3433;
 
 
 .cg1 {border-top: 45px solid #FAF8F0;background:#FAF8F0;padding-bottom:75px;width:100%;text-align:center;}
-.cg1 img (display:none;)
+
 #section-template--18825292677346__how_it_works_XkGAdx {margin: 0 80px 100px 80px!important;}
 #shopify-section-template--18825292677346__1640167859b5c16893 {margin: 80px 80px 10px 80px!important;}
 #section-id-template--18825292677346__1640167859b5c16893 {padding: 105px 80px 80px 80px!important;}
@@ -765,7 +764,7 @@ block_prod3.insertAdjacentHTML('afterend', block_prod_new3);
 
 
 
-document.querySelectorAll('#section-template--18825292677346__best_sellers_qNrwn8')[0].insertAdjacentHTML('afterend', '<div class="cg1"><img style="width:320px;margin: 20px;display: inline;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/yelp1%20logo.png"><img style="width:320px;margin: 20px;display: inline;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/yelp%20logo.png"></div>');
+document.querySelectorAll('#section-template--18825292677346__best_sellers_qNrwn8')[0].insertAdjacentHTML('afterend', '<div class="cg1"><img style="width:320px;margin: 20px;display: none;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/yelp1%20logo.png"><img style="width:320px;margin: 20px;display: none;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/yelp%20logo.png"></div>');
 
 
 
