@@ -262,7 +262,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 22.5px 36px;
-margin: 25px auto 0 auto;
+margin: 25px auto 5px auto;
 max-width: 800px;
 height: 67px;
 background: #E3AF63;
