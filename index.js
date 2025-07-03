@@ -220,6 +220,7 @@ display: flex;
 text-align: left;
 text-transform: uppercase;
 color: #3C3433;
+min-height: 95px;
 }
 .footblockm4 {
 display: flex;
@@ -691,7 +692,7 @@ var block_prod0 = document.querySelectorAll('.best-sellers-item')[0];
 var block_prod_new0 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3">ARMA TU CAJA</div><div class="footblockm4"><span class="footblockm5">Desde</span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">Crea Tu Propio Surtido De Galletas</div><div class="footblockm4"><span class="footblockm5">Desde</span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">¡Personaliza tu caja perfecta con 6 o 12 galletas! Elige entre nuestros sabores clásicos y semanales para mezclar y combinar tus favoritos.</div>
 </div>
@@ -711,7 +712,7 @@ var block_prod1 = document.querySelectorAll('.best-sellers-item')[1];
 var block_prod_new1 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3">Chocolate Chip Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">Paquete de 6 Chocolate Chip Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">Nuestras famosas galletas con chispas de chocolate se han transformado en vasitos para shots y se han cubierto con una capa de chocolate para evitar derrames.</div>
 </div>
@@ -732,7 +733,7 @@ var block_prod2 = document.querySelectorAll('.best-sellers-item')[2];
 var block_prod_new2 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3">CAJAS VARIADAS DE GALLETAS</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">Paquete de 6 Galletas Favoritas de Los Clientes</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">Una selección de 6 o 12 de nuestros productos más vendidos actualmente. Nuestro menú cambia cada semana, por lo que los pedidos pueden variar según la semana.</div>
 </div>
@@ -752,7 +753,7 @@ var block_prod3 = document.querySelectorAll('.best-sellers-item')[3];
 var block_prod_new3 = `<div class="footblockm">
 <div class="footblockm1">
 <div class="footblockm2">
-<div class="footblockm3">Cookies & Cream Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
+<div class="footblockm3">Paquete de 6 Cookies & Cream Shot Cups</div><div class="footblockm4"><span class="footblockm5"></span><span class="footblockm6">$36</span></div>
 </div>
 <div class="footblockm7">Nuestros exclusivos vasos de chupito con forma de galleta están esmaltados con un delicioso interior de chocolate para que nunca tengas que preocuparte por las fugas.</div>
 </div>
