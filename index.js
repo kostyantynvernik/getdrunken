@@ -503,6 +503,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 margin: 0 auto;
+max-height: 265px;
+overflow: hidden;
 }
 .footblockm2 {
 display: flex;
