@@ -301,7 +301,7 @@ width: 100%;}
   #shopify-section-template--18825292677346__featured_video_3bGR74 {
    display:none!important;
    }
-   #newmainbloacktop {background: linear-gradient(#3C3433, #231F20);height: 537px;width: 100%;overflow: hidden;}
+   #newmainbloacktop {background: linear-gradient(#3C3433, #231F20);height: 537px;width: 100%;overflow: hidden;padding: 0 195px;}
    #newmainbloacktop1 {color:#FAF8F0;height: 537px;padding: 80px 0;display: table;width: 100%;max-width: 1435px;margin: 0 auto;}
    .newmainbloacktopchild{display: table-cell;width: 50%;vertical-align: middle;position:relative;}
   .starttext{font-family: 'Poppins';
@@ -375,47 +375,41 @@ line-height: 26px;
 align-items: center;
 color: #FAF8F0;
 }
-.imgtop1 {position: absolute;
-width: 70%;
-height: 120%;
-left: 64px;
-top: -100px;
+.imgtop1 {
+  position: absolute;
+  width: calc(50% - 40%/2 - -26%);
+  left: calc(55% - 50%/2 - 26%);
+  top: calc(50% - 95%/2 - 30%);
 }
-.imgtop1 img{
-position: absolute;
-width: 75%;
-height: 75%;
-left: calc(50% - 100%/2 + 0px);
-top: calc(5% - 0%/2 + 1px);
+.imgtop1 img {
+  position: absolute;
+  left: calc(50% - 100%/2 + 0px);
+  top: calc(5% - 0%/2 + 1px);
 }
 .imgtop2 {
-position: absolute;
-width: 75%;
-height: 75%;
-left: 35%;
-top: 240px;
-transform: rotate(93.33deg);
+  position: absolute;
+  width: calc(50% - -25%/2 + 3%);
+  height: 90%;
+  left: calc(50% - 30%/2 + 3%);
+  top: calc(50% - -20%/2 + 3%);
+  transform: rotate(93.33deg);
 }
-.imgtop2 img{
-position: absolute;
-width: 65%;
-height: 120%;
-left: calc(50% - 80%/2 + 3%);
-top: calc(50% - 50%/2 - 40%);
-transform: rotate(93.33deg);
+.imgtop2 img {
+  position: absolute;
+  left: calc(50% - 80%/2 + 3%);
+  top: calc(50% - 50%/2 - 40%);
+  transform: rotate(93.33deg);
 }
 .imgtop3 {
   position: absolute;
-  width: 80%;
-  height: 115%;
-  left: calc(50% - 35%/2 + 15%);
-  top: -140px;
+  width: calc(60% - 33%/2 + 30%);
+  height: 135%;
+  left: calc(60% - 33%/2 + 15%);
+  top: calc(55% - 80%/2 - 80%);
   transform: rotate(66.64deg);
 }
 .imgtop3 img {
   position: absolute;
-  width: 70%;
-  height: 93%;
   left: calc(50% - 45%/2 - 26%);
   top: calc(50% - 65%/2 - 30%);
   transform: rotate(66.64deg);
