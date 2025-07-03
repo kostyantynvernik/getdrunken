@@ -302,7 +302,7 @@ width: 100%;}
    display:none!important;
    }
    #newmainbloacktop {background: linear-gradient(#3C3433, #231F20);height: 537px;width: 100%;overflow: hidden;}
-   #newmainbloacktop1 {color:#FAF8F0;height: 537px;padding: 80px 0;display: table;width: 100%;max-width: 1200px;margin: 0 auto;}
+   #newmainbloacktop1 {color:#FAF8F0;height: 537px;padding: 80px 0;display: table;width: 100%;max-width: 1435px;margin: 0 auto;}
    .newmainbloacktopchild{display: table-cell;width: 50%;vertical-align: middle;position:relative;}
   .starttext{font-family: 'Poppins';
 font-style: normal;
@@ -344,7 +344,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 22.5px 36px;
-width: 275px;
+width: 350px;
 max-width: 800px;
 height: 66px;
 background: #E3AF63;
@@ -384,7 +384,7 @@ top: -100px;
 .imgtop1 img{
 position: absolute;
 width: 75%;
-height: 70%;
+height: 75%;
 left: calc(50% - 100%/2 + 0px);
 top: calc(5% - 0%/2 + 1px);
 }
@@ -398,27 +398,27 @@ transform: rotate(93.33deg);
 }
 .imgtop2 img{
 position: absolute;
-width: 75%;
+width: 65%;
 height: 120%;
 left: calc(50% - 80%/2 + 3%);
 top: calc(50% - 50%/2 - 40%);
 transform: rotate(93.33deg);
 }
 .imgtop3 {
-position: absolute;
-width: 80%;
-height: 115%;
-left: calc(50% - 35%/2 + 15%);
-top: -140px;
-transform: rotate(66.64deg);
+  position: absolute;
+  width: 80%;
+  height: 115%;
+  left: calc(50% - 35%/2 + 15%);
+  top: -140px;
+  transform: rotate(66.64deg);
 }
-.imgtop3 img{
-position: absolute;
-width: 70%;
-height: 68%;
-left: calc(50% - 45%/2 - 26%);
-top: calc(50% - 65%/2 - 20%);
-transform: rotate(66.64deg);
+.imgtop3 img {
+  position: absolute;
+  width: 70%;
+  height: 93%;
+  left: calc(50% - 45%/2 - 26%);
+  top: calc(50% - 65%/2 - 30%);
+  transform: rotate(66.64deg);
 }
 #indertopmain {
 text-align: center;
@@ -432,7 +432,7 @@ gap: 40px;
 max-width: 1500px;
 }
 .indertopmaindc {display: table-cell;width:33%;
-padding: 0px;
+padding: 0px 30px;
 gap: 20px;
 }
 .indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
@@ -508,37 +508,33 @@ max-height: 265px;
 overflow: hidden;
 }
 .footblockm2 {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-width: 100%;
-margin: 40px 0 20px 0;
-min-height: 85px;
+  padding: 0px;
+  width: 100%;
+  margin: 40px 0 20px 0;
+  min-height: 85px;
+  display: table;
 }
 .footblockm3 {
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-display: flex;
-text-align: left;
-text-transform: uppercase;
-color: #3C3433;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: table-cell;
+  text-align: left;
+  text-transform: uppercase;
+  color: #3C3433;
 }
 .footblockm4 {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+  display: table-cell;
+  padding: 0px;
+  vertical-align: top;
 }
 .footblockm5 {
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-display: flex;
+
 align-items: center;
 color: #3C3433;
 margin-right: 10px;
@@ -548,7 +544,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
-display: flex;
+
 align-items: center;
 text-align: center;
 text-transform: uppercase;
@@ -599,6 +595,8 @@ color: #3C3433;
 #shopify-section-template--18825292677346__1640167859b5c16893 {margin: 80px 80px 10px 80px!important;}
 #section-id-template--18825292677346__1640167859b5c16893 {padding: 105px 80px 80px 80px!important;}
 h2.featured-grid--heading{max-width: 1400px;}
+.fg12 {max-width: 380px;}
+
 }
 `
 
@@ -658,9 +656,9 @@ DESEADA DE<br>PUERTO RICO</div>
 </div></div></div>
 <div id="indertopmain">
 <div class="indertopmaind">
-<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 60px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></td><td class="indertopmaindct">Horneado en Puerto Rico</td></tr><tr><td class="indertopmaindcf">Horneadas y enviadas desde San Juan – justo al lado de tu casa, o para regalar.</td></tr></table></div>
-<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 75px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20543.png"></td><td class="indertopmaindct">Envío a toda la isla</td></tr><tr><td class="indertopmaindcf">Entrega a toda la isla – o recoge desde nuestro local para pedidos grandes.</td></tr></table></div>
-<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 50px;padding: 0 5px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf">Horneadas frescas todos los días, a mano, con ingredientes reales.</td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 60px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></td><td class="indertopmaindct">Horneado en Puerto Rico</td></tr><tr><td class="indertopmaindcf"><div class="fg12">Horneadas y enviadas desde San Juan – justo al lado de tu casa, o para regalar.</div></td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 75px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20543.png"></td><td class="indertopmaindct">Envío a toda la isla</td></tr><tr><td class="indertopmaindcf"><div class="fg12">Entrega a toda la isla – o recoge desde nuestro local para pedidos grandes.</div></td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 50px;padding: 0 5px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf"><div class="fg12">Horneadas frescas todos los días, a mano, con ingredientes reales.</div></td></tr></table></div>
 </div>
 </div>`);
 
