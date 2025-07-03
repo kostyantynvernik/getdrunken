@@ -50,7 +50,7 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 .best-sellers-wrapper {display: flex !important;}
 .cta--custom-wrapper {margin-top: 0!important;}
 .best-sellers-container{padding: 0 30px!important;max-height: 100%!important;}
-.best-sellers-wrapper {width:100%;max-height: 700px!important;}
+.best-sellers-wrapper {width:100%;max-height: 100%!important;}
 .best-sellers-item-top {display: table-cell !important;width: 100%;padding-bottom: 5px;}
 .newmainbloacktopchild5{font-family: 'Poppins';
 font-style: normal;
