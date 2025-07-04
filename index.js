@@ -17,7 +17,8 @@ const config = {
 const styles = /* css */ `
 @media screen and (max-width: 600px){
 
-.cg1 {border-top: 45px solid #FAF8F0;background:white;padding-bottom:75px;width:100%;text-align:center;}
+.cg1 {border-top: 45px solid #FAF8F0;background:red;padding-bottom:75px;width:100%;text-align:center;}
+#shopify-section-template--18825292677346__how_it_works_XkGAdx {background:green;}
 #main_content {padding-top: 0!important;}
   #shopify-section-template--18825292677346__featured_video_3bGR74 {
    display:none!important;
@@ -583,7 +584,8 @@ color: #3C3433;
 .cta--custom-wrapper .cta--custom{display:none !important;}
 
 
-.cg1 {border-top: 45px solid #FAF8F0;background:white;padding-bottom:75px;width:100%;text-align:center;}
+.cg1 {border-top: 45px solid #FAF8F0;background:red;padding-bottom:75px;width:100%;text-align:center;}
+#shopify-section-template--18825292677346__how_it_works_XkGAdx {background:green;}
 
 #section-template--18825292677346__how_it_works_XkGAdx {margin: 0 80px 100px 80px!important;}
 #shopify-section-template--18825292677346__1640167859b5c16893 {margin: 80px 80px 10px 80px!important;}
