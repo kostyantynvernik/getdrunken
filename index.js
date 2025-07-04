@@ -18,7 +18,7 @@ const styles = /* css */ `
 @media screen and (max-width: 600px){
 
 .cg1 {border-top: 45px solid #FAF8F0;background:white;padding-bottom:75px;width:100%;text-align:center;display:none;}
-#shopify-section-template--18825292677346__how_it_works_XkGAdx {background:white;padding-top: 25px;}
+#shopify-section-template--18825292677346__how_it_works_XkGAdx {background:white;padding-top: 80px;}
 #main_content {padding-top: 0!important;}
   #shopify-section-template--18825292677346__featured_video_3bGR74 {
    display:none!important;
@@ -144,7 +144,7 @@ gap: 20px;
 .indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
 .indertopmaindc td {padding:0!important;border: none !important;display:inherit;text-align: center;}
 .indertopmaindci{border: none !important;}
-.indertopmaindci img {height: 38.5px;padding: 0 15px 0 0;margin: 1px;display: initial;margin-bottom: 15px;}
+.indertopmaindci img {height: 38.5px;padding: 0 15px 0 0;margin: 2px;display: initial;margin-bottom: 15px;}
 .indertopmaindct{
 font-style: normal;
 font-weight: 800;
