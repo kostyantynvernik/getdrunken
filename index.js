@@ -144,7 +144,7 @@ gap: 20px;
 .indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
 .indertopmaindc td {padding:0!important;border: none !important;display:inherit;text-align: center;}
 .indertopmaindci{border: none !important;}
-.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;margin: 1px;display: initial;margin-bottom: 15px;}
+.indertopmaindci img {height: 38.5px;padding: 0 15px 0 0;margin: 1px;display: initial;margin-bottom: 15px;}
 .indertopmaindct{
 font-style: normal;
 font-weight: 800;
@@ -433,7 +433,7 @@ gap: 20px;
 .indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
 .indertopmaindc td {padding:0!important;border: none !important;}
 .indertopmaindci{border: none !important;}
-.indertopmaindci img {height: 37.5px;padding: 0 15px 0 0;margin: 1px;}
+.indertopmaindci img {height: 38.5px;padding: 0 15px 0 0;margin: 1px;}
 .indertopmaindct{
 font-style: normal;
 font-weight: 800;
