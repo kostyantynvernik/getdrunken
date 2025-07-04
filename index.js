@@ -23,6 +23,7 @@ const styles = /* css */ `
   #shopify-section-template--18825292677346__featured_video_3bGR74 {
    display:none!important;
    }
+   .ssss1 {width: 51px!important;}
    #newmainbloacktop {background: linear-gradient(#3C3433, #231F20);height: 100%;width: 100%;overflow: hidden;position:relative;}
    newmainbloacktopchild_m{width: 0;position:inherit!important;}
    #newmainbloacktop1 {color:#FAF8F0;height: 537px;padding: 300px 0 80px 0;display: table;width: 100%;max-width: 1200px;margin: 0 auto;}
@@ -144,7 +145,7 @@ gap: 20px;
 .indertopmaindc table {border: none !important;width:100%;margin: 0 !important;}
 .indertopmaindc td {padding:0!important;border: none !important;display:inherit;text-align: center;}
 .indertopmaindci{border: none !important;}
-.indertopmaindci img {height: 38.5px;padding: 0 15px 0 0;margin: 2px;display: initial;margin-bottom: 15px;}
+.indertopmaindci img {height: 40.5px;padding: 0 15px 0 0;margin: 2px;display: initial;margin-bottom: 15px;}
 .indertopmaindct{
 font-style: normal;
 font-weight: 800;
@@ -653,7 +654,7 @@ DESEADA DE<br>PUERTO RICO</div>
 <div class="indertopmaind">
 <div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 60px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></td><td class="indertopmaindct">Horneado en Puerto Rico</td></tr><tr><td class="indertopmaindcf"><div class="fg12">Horneadas y enviadas desde San Juan – justo al lado de tu casa, o para regalar.</div></td></tr></table></div>
 <div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 75px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Frame%20543.png"></td><td class="indertopmaindct">Envío a toda la isla</td></tr><tr><td class="indertopmaindcf"><div class="fg12">Entrega a toda la isla – o recoge desde nuestro local para pedidos grandes.</div></td></tr></table></div>
-<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img style="width: 50px;padding: 0 5px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf"><div class="fg12">Horneadas frescas todos los días, a mano, con ingredientes reales.</div></td></tr></table></div>
+<div class="indertopmaindc"><table style="width:100%"><tr><td rowspan="2" style="border-right: 0 !important;" class="indertopmaindci"><img class="ssss1" style="width: 50px;padding: 0 5px;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></td><td class="indertopmaindct">Frescas horneadas diariamente</td></tr><tr><td class="indertopmaindcf"><div class="fg12">Horneadas frescas todos los días, a mano, con ingredientes reales.</div></td></tr></table></div>
 </div>
 </div>`);
 
