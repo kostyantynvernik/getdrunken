@@ -499,7 +499,7 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 margin: 0 auto;
-max-height: 265px;
+max-height: 285px;
 overflow: hidden;
 }
 .footblockm2 {
@@ -550,7 +550,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-height: 120px;
+height: 140px;
 align-items: center;
 color: #3C3433;
 }
