@@ -55,7 +55,7 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 .cta--custom-wrapper {margin-top: 0!important;}
 .best-sellers-container{padding: 0 30px!important;max-height: 100%!important;}
 .best-sellers-wrapper {width:100%;max-height: 100%!important;}
-.best-sellers-item-top {display: table-cell !important;width: 100%;padding-bottom: 5px;}
+.best-sellers-item-top {padding:0px 6px 5px 6px;display: table-cell !important;width: 100%;}
 .newmainbloacktopchild5{font-family: 'Poppins';
 font-style: normal;
 font-weight: 800;
@@ -222,10 +222,10 @@ display: flex;
 text-align: left;
 text-transform: uppercase;
 color: #3C3433;
-min-height: 95px;
+min-height: 125px;
 }
 .footblockm4 {
-display: flex;
+display: block;
 flex-direction: row;
 align-items: center;
 padding: 0px;
@@ -235,7 +235,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-display: flex;
+display: block;
 align-items: center;
 color: #3C3433;
 margin-right: 10px;
@@ -245,8 +245,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
-display: flex;
-align-items: center;
+display: block;
 text-align: center;
 text-transform: uppercase;
 color: #3C3433;
