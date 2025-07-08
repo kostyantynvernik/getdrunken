@@ -212,6 +212,7 @@ align-items: center;
 padding: 0px;
 width: 100%;
 margin: 40px 0 20px 0;
+position: relative;
 }
 .footblockm3 {
 font-style: normal;
@@ -229,6 +230,7 @@ display: block;
 flex-direction: row;
 align-items: center;
 padding: 0px;
+
 }
 .footblockm5 {
 font-style: normal;
@@ -239,6 +241,9 @@ display: block;
 align-items: center;
 color: #3C3433;
 margin-right: 10px;
+position: absolute;
+top: 8px;
+right: -10px;
 }
 .footblockm6 {
 font-style: normal;
