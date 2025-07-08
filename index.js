@@ -227,9 +227,8 @@ min-height: 125px;
 }
 .footblockm4 {
 display: block;
-flex-direction: row;
-align-items: center;
 padding: 0px;
+margin-left: 10px;
 
 }
 .footblockm5 {
@@ -238,12 +237,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 display: block;
-align-items: center;
 color: #3C3433;
-margin-right: 10px;
-position: absolute;
-top: 8px;
-right: -10px;
+margin-top: -22px;
 }
 .footblockm6 {
 font-style: normal;
