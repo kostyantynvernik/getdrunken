@@ -16,7 +16,7 @@ const config = {
 // Styles for Experiment
 const styles = /* css */ `
 @media screen and (max-width: 600px){
-#section-template--18825292677346__best_sellers_qNrwn8 {padding-top: 25px!important;}
+#section-template--18825292677346__best_sellers_qNrwn8 {padding-top: 15px!important;}
 .cg1 {border-top: 45px solid #FAF8F0;background:white;padding-bottom:75px;width:100%;text-align:center;display:none;}
 
 #main_content {padding-top: 0!important;}
@@ -297,6 +297,7 @@ width: 100%;}
 
 
 @media screen and (min-width: 601px){
+#section-template--18825292677346__best_sellers_qNrwn8 {padding-top: 25px!important;}
 //#main_content {padding-top: 0!important;}
   #shopify-section-template--18825292677346__featured_video_3bGR74 {
    display:none!important;
