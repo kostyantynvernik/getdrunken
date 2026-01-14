@@ -40,7 +40,16 @@ document.querySelector('.builder-summary__footer').insertAdjacentHTML('beforeend
 <td style="border-right: 0 !important;text-align: center;" class="indertopmaindci"><div><img style="width: 43px;display: inline;padding-bottom:10px" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Group.png"></div><div>Baked in Puerto Rico</div></td>
 <td style="border-right: 0 !important;text-align: center;" class="indertopmaindci"><div><img class="ssss1" style="width: 40px;padding: 0 5px 10px 0;display: inline;" src="https://raw.githubusercontent.com/kostyantynvernik/getdrunken/refs/heads/main/Vector.png"></div><div>Fresh baked daily</div></td></tr></table>
 </div>`);
- 
+
+
+document.querySelectorAll('.builder-summary__footer button')[0].insertAdjacentHTML('afterend', '<button type="button" class="atc-btn cta--custom cta--custom-second atc-btn-disabled">Add to cart</button>');;
+document.querySelectorAll('.builder-summary__footer button')[0].remove();
+
+document.querySelectorAll('.builder-summary-mobile__footer button')[0].insertAdjacentHTML('afterend', '<button type="button" class="atc-btn cta--custom cta--custom-second atc-btn-mobile atc-btn-disabled">Add to cart</button>');;
+document.querySelectorAll('.builder-summary-mobile__footer button')[0].remove();
+
+
+
 }
 };
 xhr.send();
