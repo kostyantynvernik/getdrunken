@@ -50,6 +50,31 @@ document.querySelectorAll('.builder-summary-mobile__footer button')[0].remove();
 
 
 
+
+var targetNode = document.getElementById('summaryItems');
+if (!targetNode) return;
+var fixQuantityText = function() {
+var spans = targetNode.getElementsByTagName('span');
+for (var i = 0; i < spans.length; i++) {
+var text = spans[i].textContent || spans[i].innerText;
+if (/(\d+)\s*PIECES?/i.test(text)) {
+var newText = text.replace(/(\d+)\s*PIECES?/i, '$1X');
+if (spans[i].textContent !== newText) {
+spans[i].textContent = newText;
+}
+}
+}
+};
+var observer = new MutationObserver(function(mutations) {
+fixQuantityText();
+});
+var config = { 
+childList: true, 
+subtree: true, 
+characterData: true 
+};
+observer.observe(targetNode, config);
+fixQuantityText();
 }
 };
 xhr.send();
